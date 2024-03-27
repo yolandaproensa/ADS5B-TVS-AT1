@@ -7,7 +7,6 @@ describe('Teste da função recebeDados', () => {
     const RA = "228697";
     const esperado = `Dados recebidos - Nome: ${nome}, RA: ${RA}`;
 
-
     expect(dadosEstudante(nome, RA)).toBe(esperado);
   });
 });
